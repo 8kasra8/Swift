@@ -1,0 +1,16 @@
+  136  du -h -d 2
+  137  nc 
+  138  mc
+  139  ls -la
+  140  cd Desktop
+  141  cd MakeMeRich
+  142  git init
+  143  echo "# Swift" >> README.md
+  144  ls -la
+  145  git add README.md
+  146  git add makeMeRich
+  147  git commit -m "first commit"
+  148  git branch -M main
+  149  git remote add origin https://github.com/8kasra8/Swift.git
+  150  git push -u origin main
+  151  git config --global --list
